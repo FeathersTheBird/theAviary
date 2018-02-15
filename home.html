@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Aviary</title>
+	<script src="https://unpkg.com/vue"></script>
+	<meta name="author" content="Hayley Morin">
+	<link rel="icon" href="img/favicon.png">
+<link href='https://fonts.googleapis.com/css?family=Macondo|Acme' rel='stylesheet'>
+<style>
+	
+	body	{
+		background-color: #DCC0EA;
+		font-family: Acme;
+		}
+		
+	.titlebar	{
+		font-family: Macondo;
+		font-size: 40px;
+		text-align: center; 
+		border-style: solid;
+		border-color: white;
+		border-radius: 25px;
+		background: white;
+		}
+		
+	.minititlebar	{
+		font-family: Macondo;
+		text-align: center;
+		font-size: 25px; 
+		}
+			
+	.mainborder		{
+		border-style: dashed;
+		border-color: white;
+		border-radius: 25px;
+		}
+		
+	.main	{
+		text-align: center;
+		}
+		
+	.column		{
+    float: left;
+    width: 25%;
+    padding-bottom: 20px;
+		}
+
+	.row:after 	{
+		content: "";
+		display: table;
+		clear: both;
+		}
+			
+	.footer		{
+		font-family: Acme;
+		margin-top: 25px;
+		border-style: solid;
+		border-color: white;
+		border-radius: 25px;
+		background: white;
+		padding: 10px;
+		color: #B36DC8;
+		font-size: 15px;
+		line-height: 7px;
+		overflow: hidden;
+		}
+	
+	.footerlinks	{
+		text-align: center;
+		padding: 20px;
+		-webkit-column-count: 4; /* Chrome, Safari, Opera */
+		-moz-column-count: 4; /* Firefox */
+		column-count: 4;
+		overflow: hidden;
+		line-height: 15px;
+		}
+</style>
+<body>
+	<div class="titlebar">
+		<p><a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/home.html"><img src="img/favicon.png", alt="TA_logo", width=30, height=30></a> The Aviary - - - <font size="4.5">Games | Horoscope | Shops | Home | <a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/pets_all.html">Your Pets</a></font></p>
+	</div>
+	<div class="minititlebar">
+		<p>Welcome to The Aviary!</p>
+	</div>	
+	<div class="mainborder">
+		<div class="main">
+			<div class="row">
+				<div class="column">
+					<h2>NEWS</h2>
+					<p>New pets launch today!</p>
+					<img src="img/nopet.png", alt="No Pet", width="200", height="200">
+				</div>
+				<div class="column">
+					<h2>STRANGEBIRD OF THE DAY</h2>
+					<p>spool's Testcreature!</p>
+					<img src="img/testcreature.png", alt="Test Creature", width="200", height="200">
+				</div>
+				<div class="column">
+					<h2>POPULAR ITEMS</h2>
+					<p>There is nothing to buy yet.</p>
+				</div>
+				<div class="column">
+					<h2>POPULAR SHOPS</h2>
+					<p>There is nothing to buy yet.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<br>
+	<div class="footer">
+		<p>The Aviary and its media are all trademarks of Avianz, Inc. All rights reserved. </p>
+		<br>
+		<div class="footerlinks">
+			Contact Us
+			<p><a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/about.html">About Us</a></p>
+			<p>Help</p>
+			<p><a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/privacy-policy.html">Privacy Policy</a></p>
+		</div>
+	</div>
+</body>
+

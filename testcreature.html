@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Aviary</title>
+	<script src="https://unpkg.com/vue"></script>
+	<meta name="author" content="Hayley Morin">
+	<link rel="icon" href="img/favicon.png">
+<link href='https://fonts.googleapis.com/css?family=Macondo|Acme' rel='stylesheet'>
+<style>
+	body	{
+		background-color: #DCC0EA;
+		font-family: Acme;
+		}
+		
+	hr 		{ 
+		display: block;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: dashed;
+		border-width: 1px;
+		border-color: white;
+		}
+		
+	.titlebar	{
+		font-family: Macondo;
+		font-size: 40px;
+		text-align: center; 
+		border-style: solid;
+		border-color: white;
+		border-radius: 25px;
+		background: white;
+		}
+		
+	.minititlebar	{
+		font-family: Macondo;
+		text-align: center;
+		font-size: 25px; 
+		}
+	
+	.petborder	{
+		border: 3px solid white;
+		border-radius: 20px;
+		overflow: hidden;
+		}
+		
+	.petsname	{
+		text-align: center;
+		font-size: 20px;
+		letter-spacing: 1px;
+		}
+		
+	.pet	{
+		font-family: Acme;
+		float: left;
+		padding: 10px;
+		padding-left: 150px;
+		padding-bottom: 50px;
+		text-align: center;
+		line-height: 5px;
+		}
+			
+	.petdesc	{
+		float: right;
+		padding-left: 400px;
+		line-height: 10px;
+		text-align: left;
+		}
+		
+	.desctitle	{
+		font-family: Macondo;
+		text-align: center;
+		font-size: 25px;
+		}
+		
+	.morepetstuff	{
+		border: 3px dotted white;
+		border-radius: 20px;
+		overflow: hidden;
+		}
+		
+	.awardtitle		{
+		font-family: Macondo;
+		text-align: center;
+		font-size: 25px;
+		padding-top: 13px;
+		padding-bottom: 25px;
+		}
+		
+	.awards		{
+		font-family: Acme;
+		text-align: center;
+		font-size: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		-webkit-column-count: 4; /* Chrome, Safari, Opera */
+		-moz-column-count: 4; /* Firefox */
+		column-count: 4;
+		column-gap: 15px;
+		overflow: hidden;
+		}
+		
+	.footer		{
+		font-family: Acme;
+		margin-top: 25px;
+		border-style: solid;
+		border-color: white;
+		border-radius: 25px;
+		background: white;
+		padding: 10px;
+		color: #B36DC8;
+		font-size: 15px;
+		line-height: 7px;
+		overflow: hidden;
+		}
+		
+	.footerlinks	{
+		text-align: center;
+		padding: 20px;
+		-webkit-column-count: 4; /* Chrome, Safari, Opera */
+		-moz-column-count: 4; /* Firefox */
+		column-count: 4;
+		overflow: hidden;
+		line-height: 15px;
+		}
+
+</style>
+</head>
+
+<body>
+	<div class="titlebar">
+		<p><a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/home.html"><img src="img/favicon.png", alt="TA_logo", width=30, height=30></a> The Aviary - - - <font size="4.5">Games | Horoscope | Shops | Home | <a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/pets_all.html">Your Pets</a></font></p>
+	</div>
+	<div class="minititlebar">
+		<p>Your Pet</p>
+	</div>
+	<div class="petborder">
+		<div class="petsname">
+		<p><b><u>Creature of Code</u></b> the <b><u>Testbeast</u></b></p>
+		</div>
+		<div class="pet">
+			<img src="img/testcreature.png", alt="Test Creature">
+			<div class="petdesc">
+				<div class="desctitle">
+					<b>DESCRIPTION:</b>
+				</div>
+			<p><b>Gender:</b> Female</p>
+			<p><b>Ifification:</b> Electric Yellow</p>
+			<p><b>Likes:</b> Painting, exploring, and making a mess.</p>
+			<p><b>Dislikes:</b> Loud noises, bad smells, and tangled headphones.</p>
+			<p><b>Level:</b> 3</p>
+			<p><b>HP:</b> 27/27</p>
+			<p><b>Hunger:</b> Peckish</p>
+			<p><b>Western Zodiac:</b> Aquarius</p>
+			<p><b>Chinese Zodiac:</b> Dog (2018)</p>
+			<p><b>Birthday:</b> January 22, 2018</p>
+			<p><b>Mood:</b> Happy</p>
+			<p><b>Favorite Food:</b> Broccoli and Parmesan Salad</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="morepetstuff">
+		<div class="awardtitle">
+			<i>Creature of Code's Awards:</i>
+			<hr>
+		</div>
+		<div class="awards">
+			<img src="img/debugaward.png", alt="Debug Duck">
+			<br>
+			DEBUG DUCK - First creature in the Aviary.
+			<br>
+			<img src="img/genaward.png", alt="Debug Duck">
+			<br>
+			GENERIC TROPHY - Owner signed up.
+		</div>
+	</div>
+	<div class="footer">
+	<p>The Aviary and its media are all trademarks of Avianz, Inc. All rights reserved. </p>
+	<br>
+		<div class="footerlinks">
+		Contact Us
+		<p><a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/about.html">About Us</a></p>
+		<p>Help</p>
+		<p><a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/privacy-policy.html">Privacy Policy</a></p>
+		</div>
+	</div>
+</body>
+</html>
