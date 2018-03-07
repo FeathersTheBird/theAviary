@@ -22,43 +22,37 @@
 		border-radius: 25px;
 		background: white;
 		}
+		
+	.minititlebar	{
+		font-family: Macondo;
+		text-align: center;
+		font-size: 25px; 
+		}
 			
-	.coopborder		{
+	.mainborder		{
 		border-style: dashed;
 		border-color: white;
 		border-radius: 25px;
-		padding: 10px;
 		}
 		
-	.flock	{
+	.main	{
 		text-align: center;
-		padding: 20px;
-		-webkit-column-count: 4; /* Chrome, Safari, Opera */
-		-moz-column-count: 4; /* Firefox */
-		column-count: 4;
-		overflow: hidden;
+		padding: 100px;
 		}
-		
-	.row	{
+			
+	.button 	{
 		text-align: center;
-		}		
-		
-	.credopt	{
-		text-align: center;
-		border-style: dashed;
+		font-family: Acme;
+		background-color: red;
+		border: red;
+		border-color: red;
 		display: inline-block;
-		border-color: white;
-		border-radius: 25px;
-		width: 45%;
-		padding-bottom: 20px;
+		border-radius: 50%;
+		color: red;
+		font-size: 100px;
+		padding: 50px;
 		}
-		
-	.row:after 	{
-		content: "";
-		display: table;
-		clear: both;
-		}
-	
+			
 	.footer		{
 		font-family: Acme;
 		margin-top: 25px;
@@ -82,44 +76,20 @@
 		overflow: hidden;
 		line-height: 15px;
 		}
-		
 </style>
 <body>
 	<div class="titlebar">
 		<p><a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/home.html"><img src="img/TA_logo.png", alt="TA_big_logo", width=15%, height=15%></a> - - - <font size="4.5">Games | Horoscope | Shops | Home | <a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/pets_all.html">Your Pets</a></font></p>
 	</div>
-	<br>
-	<div class="coopborder">
-		<div class="flock">
-			<img src="img/cherrybomb.png", alt="Cherry Bomb", width=150, height=150>
-			<br>
-			<b>Cherry Bomb</b> the Tookin
-			<br>
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/testcreature.html"><img src="img/testcreature.png", alt="Test Creature", width=150, height=150></a>
-			<br>
-			<b>Creature of Code</b> the Testbeast
-			<br>
-			<img src="img/sadjheuty.png", alt="Sadjhuty", width=150, height=150>
-			<br>
-			<b>Sadjheuty</b> the Ibisoggy
-			<br>
-			<img src="img/nopet.png", alt="No Pet", width=150, height=150>
-			<br>
-			<b>???</b>
-			<br>
+	<div class="minititlebar">
+		<p>Welcome to The Aviary!</p>
+	</div>	
+	<div class="mainborder">
+		<div class="main">
+			<button class="button" onclick="alert('butt fart')">u smel</button>
 		</div>
 	</div>
-	<br>
-	<div class="row">
-		<div class="credopt">
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/createapet.html"><h2>Create a Strangebird</h2></a>
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/createapet.html"><img src="img/createpetpic.png", alt="Create Pet"></a>
-		</div>
-		<div class="credopt">
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/adopt.html"><h2>Adopt a Strangebird</h2></a>
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/adopt.html"><img src="img/adoptpetpic.png", alt="Adopt a Pet"></a>
-		</div>
-	</div>
+	
 	<br>
 	<div class="footer">
 		<p>The Aviary and its media are all trademarks of Avianz, Inc. All rights reserved. </p>
@@ -132,3 +102,4 @@
 		</div>
 	</div>
 </body>
+

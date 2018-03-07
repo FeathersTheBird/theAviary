@@ -13,6 +13,22 @@
 		font-family: Acme;
 		}
 		
+	.button 	{
+		font-family: Acme;
+		background-color: white;
+		border: solid;
+		border-color: white;
+		color: gray;
+		padding: 8px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 8px;
+}
+		
 	.titlebar	{
 		font-family: Macondo;
 		font-size: 40px;
@@ -28,11 +44,12 @@
 		border-color: white;
 		border-radius: 25px;
 		padding: 10px;
+		padding-bottom: 0px;
 		}
 		
-	.flock	{
+	.adoptflock	{
 		text-align: center;
-		padding: 20px;
+		padding: 10px;
 		-webkit-column-count: 4; /* Chrome, Safari, Opera */
 		-moz-column-count: 4; /* Firefox */
 		column-count: 4;
@@ -41,16 +58,6 @@
 		
 	.row	{
 		text-align: center;
-		}		
-		
-	.credopt	{
-		text-align: center;
-		border-style: dashed;
-		display: inline-block;
-		border-color: white;
-		border-radius: 25px;
-		width: 45%;
-		padding-bottom: 20px;
 		}
 		
 	.row:after 	{
@@ -90,34 +97,28 @@
 	</div>
 	<br>
 	<div class="coopborder">
-		<div class="flock">
-			<img src="img/cherrybomb.png", alt="Cherry Bomb", width=150, height=150>
+		<div class="adoptflock">
 			<br>
-			<b>Cherry Bomb</b> the Tookin
+			<img src="img/pets/tookin.png", alt="Greyman", width=150, height=150>
 			<br>
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/testcreature.html"><img src="img/testcreature.png", alt="Test Creature", width=150, height=150></a>
+			<b>Greyman</b> the Tookin
+			<p><button class="button" onclick="alert('Are you sure you want to adopt this Strangebird?')">Adopt Me!</button></p>
 			<br>
-			<b>Creature of Code</b> the Testbeast
+			<img src="img/pets/egapal.png", alt="Shade", width=150, height=150>
 			<br>
-			<img src="img/sadjheuty.png", alt="Sadjhuty", width=150, height=150>
+			<b>Shade</b> the Egapal
+			<p><button class="button" onclick="alert('Are you sure you want to adopt this Strangebird?')">Adopt Me!</button></p>
 			<br>
-			<b>Sadjheuty</b> the Ibisoggy
+			<img src="img/pets/ibisoggy.png", alt="Gloom", width=150, height=150>
 			<br>
-			<img src="img/nopet.png", alt="No Pet", width=150, height=150>
+			<b>Gloom</b> the Ibisoggy
+			<p><button class="button" onclick="alert('Are you sure you want to adopt this Strangebird?')">Adopt Me!</button></p>
 			<br>
-			<b>???</b>
+			<img src="img/pets/shargull.png", alt="Grimm", width=150, height=150>
 			<br>
-		</div>
-	</div>
-	<br>
-	<div class="row">
-		<div class="credopt">
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/createapet.html"><h2>Create a Strangebird</h2></a>
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/createapet.html"><img src="img/createpetpic.png", alt="Create Pet"></a>
-		</div>
-		<div class="credopt">
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/adopt.html"><h2>Adopt a Strangebird</h2></a>
-			<a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/adopt.html"><img src="img/adoptpetpic.png", alt="Adopt a Pet"></a>
+			<b>Grimm</b> the Shargull
+			<p><button class="button" onclick="alert('Are you sure you want to adopt this Strangebird?')">Adopt Me!</button></p>
+			<br>
 		</div>
 	</div>
 	<br>
