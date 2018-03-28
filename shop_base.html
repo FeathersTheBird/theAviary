@@ -22,17 +22,46 @@
 		border-radius: 25px;
 		background: white;
 		}
+		
+	.button 	{
+		font-family: Acme;
+		background-color: white;
+		border: solid;
+		border-color: white;
+		color: gray;
+		padding: 8px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 8px;
+}
 			
-	.aboutborder		{
+	.midborder		{
 		border-style: dashed;
 		border-color: white;
 		border-radius: 25px;
 		padding: 10px;
 		}
 		
-	.about	{
+	.mid	{
 		text-align: center;
 		}
+			
+	.shop_table	{
+		border-collapse: collapse;
+		align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.shop_table td {
+		text-align: center;
+		padding-left: 25px;
+		padding-right: 25px;
+	}		
 			
 	.footer		{
 		font-family: Acme;
@@ -57,22 +86,55 @@
 		overflow: hidden;
 		line-height: 15px;
 		}
-		
 </style>
 <body>
 	<div class="titlebar">
 		<p><a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/home.html"><img src="img/TA_logo.png", alt="TA_big_logo", width=15%, height=15%></a> - - - <font size="4.5">Games | Horoscope | <a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/shops.html">Shops</a> | Home | <a href="C:/Users/Baxter/Documents/GitHub/petgame_aviary/pets_all.html">Your Pets</a></font></p>
 	</div>
 	<br>
-	<div class="aboutborder">
-		<div class="about">
-			<p>Welcome to The Aviary! The Aviary is a virtual pet website all about birds and fun. On The Aviary, you own a coop, and can adopt up to 12 Strangebirds as pets.</p>
-			<p>With science, your Strangebird can become anything you want: a robot, a zombie, a chick again, or even slime.</p>
-			<p><img src="img/candytookin.png", alt="Candy Tookin"><img src="img/candytookin.png", alt="Candy Tookin"><img src="img/candytookin.png", alt="Candy Tookin"></p>
-			<p>Wow, those sure are 3 candy-red Tookins!</p>
-			<p>On The Aviary, you can play games, care for your pets, and run a shop!</p>
+	
+	<div class="midborder">
+		<div class="mid">
+			<img src="img/storeHDR-TST.png", alt="Shop Header", width=50%, height=50%>
+			<p> </p>
+			<img src="img/unikookacorn.png", alt="TestShopkeep">
+			<br>
+			
+			<table class="shop_table">
+				<caption><h3>Unikookacorn says: Welcome to my shop!</h3> <p></p></caption>
+				<tr>
+					<td>
+						<img src="img/nopet.png">
+						<p>AEIOU</p>
+						<p>$420</p>
+						<p><button class="button" onclick="alert('Item purchased.')">Purchase</button></p>
+					</td>
+					
+					<td>
+						<img src="img/nopet.png">
+						<p>AEIOU</p>
+						<p>$420</p>
+						<p><button class="button" onclick="alert('Item purchased.')">Purchase</button></p>
+					</td>
+					
+					<td>
+						<img src="img/nopet.png">
+						<p>AEIOU</p>
+						<p>$420</p>
+						<p><button class="button" onclick="alert('Item purchased.')">Purchase</button></p>
+					</td>
+					
+					<td>
+						<img src="img/nopet.png">
+						<p>AEIOU</p>
+						<p>$420</p>
+						<p><button class="button" onclick="alert('Item purchased.')">Purchase</button></p>
+					</td>
+				</tr>
+			</table>
 		</div>
 	</div>
+	
 	<br>
 	<div class="footer">
 		<p>The Aviary and its media are all trademarks of Avianz, Inc. All rights reserved. </p>
